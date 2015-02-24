@@ -1,0 +1,25 @@
+<config>
+	<log
+		type = "console"
+		file = ""
+		comments = "true"
+		messages = "true"
+	/>
+	<compilers>
+		<compiler
+			extension = "cpp"
+			command = "g++.exe"
+			arguments = "-o {T} {S}"
+		/>
+		<compiler
+			extension = "c"
+			command = "gcc.exe"
+			arguments = "-o {T} {S}"
+		/>
+		<compiler
+			extension = "pas"
+			command = "H:\Compilers\FreePascal\bin\i386-win32\fpc.exe"
+			arguments = "-o{T} {S}"
+		/>
+	</compilers>
+</config>

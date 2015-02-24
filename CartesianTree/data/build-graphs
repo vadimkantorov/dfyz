@@ -1,0 +1,3 @@
+@echo off
+pl.exe -prefab lines data=stats.txt x=1 y=2 y2=4 y3=6 "title=Tree height after inserting a sequence of nodes" "xlbl=Node count" "ylbl=Height" pointsym=none pointsym2=none pointsym3=none "name=Increasing sequence" "name2=Decreasing sequence" "name3=Random sequence" -svg -o heights.svg
+pl.exe -prefab lines data=stats.txt x=1 y=3 y2=5 y3=7 "title=CPU Time after inserting a sequence of nodes (in seconds)" "xlbl=Node count" "ylbl=Time" pointsym=none pointsym2=none pointsym3=none "name=Increasing sequence" "name2=Decreasing sequence" "name3=Random sequence" -svg -o times.svg

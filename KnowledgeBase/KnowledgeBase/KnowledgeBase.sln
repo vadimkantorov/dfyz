@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnowledgeBase", "KnowledgeBase.csproj", "{1AC4A1A1-8B71-4E7E-9518-C9522EB82518}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{1AC4A1A1-8B71-4E7E-9518-C9522EB82518}.Debug.ActiveCfg = Debug|.NET
+		{1AC4A1A1-8B71-4E7E-9518-C9522EB82518}.Debug.Build.0 = Debug|.NET
+		{1AC4A1A1-8B71-4E7E-9518-C9522EB82518}.Release.ActiveCfg = Release|.NET
+		{1AC4A1A1-8B71-4E7E-9518-C9522EB82518}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

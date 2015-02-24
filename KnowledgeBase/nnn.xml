@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This is KnowledgeBase file-->
+<objects>
+  <Element name="Элемент 1">
+    <Attribute name="киберсвязь" multiplicity="False" type="LINK">0</Attribute>
+    <Element name="Элемент 2">
+      <Attribute name="имя" multiplicity="False" type="TEXT">значение</Attribute>
+      <Attribute name="киберсвязь" multiplicity="False" type="LINK">0</Attribute>
+    </Element>
+  </Element>
+</objects>

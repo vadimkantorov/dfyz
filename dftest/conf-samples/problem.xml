@@ -1,0 +1,19 @@
+<problem>
+	<tests
+		tests = "TESTS\##"
+		answers = "TESTS\##.a"
+		input = "input.txt"
+		output = "output.txt"
+		count = "auto"
+	>
+		<limits
+			cpu-time = "2"
+			real-time = "4"
+			memory = "16m"
+			output = "0"
+		/>
+		<validator
+			command="#binary"
+		/>
+	</tests>
+</problem>

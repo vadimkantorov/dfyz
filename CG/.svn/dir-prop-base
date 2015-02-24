@@ -1,0 +1,15 @@
+K 10
+svn:ignore
+V 75
+*.suo
+*.ncb
+*.user
+_ReSharper.*
+[Bb]in
+obj
+[Dd]ebug
+[Rr]elease
+*.aps
+*.eto
+
+END

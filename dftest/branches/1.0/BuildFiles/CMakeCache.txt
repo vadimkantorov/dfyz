@@ -1,0 +1,291 @@
+# This is the CMakeCache file.
+# For build in directory: d:/My Documents/Acm files/dftest/branches/1.0/BuildFiles
+# You can edit this file to change values found and used by cmake.
+# If you do not want to change any of the values, simply exit the editor.
+# If you do want to change a value, simply edit, save, and exit the editor.
+# The syntax for the file is as follows:
+# KEY:TYPE=VALUE
+# KEY is the name of a variable in the cache.
+# TYPE is a hint to GUI's for the type of VALUE, DO NOT EDIT TYPE!.
+# VALUE is the current value for the KEY.
+
+########################
+# EXTERNAL cache entries
+########################
+
+//Path to a program.
+CMAKE_AR:FILEPATH=C:/Program Files/Development/MinGW/bin/ar.exe
+
+//For backwards compatibility, what version of CMake commands and
+// syntax should this version of CMake allow.
+CMAKE_BACKWARDS_COMPATIBILITY:STRING=2.0
+
+//Semicolon separated list of supported configuration types, only
+// supports Debug, Release, MinSizeRel, and RelWithDebInfo, anything
+// else will be ignored.
+CMAKE_CONFIGURATION_TYPES:STRING=Debug;Release
+
+//C++ compiler
+CMAKE_CXX_COMPILER:STRING=cl
+
+//Flags used by the compiler during all build types.
+CMAKE_CXX_FLAGS:STRING=  /W3 /Zm1000 /EHsc /GR
+
+//Flags used by the compiler during debug builds.
+CMAKE_CXX_FLAGS_DEBUG:STRING=/MDd /Zi /Od /RTC1
+
+//Flags used by the compiler during release minsize builds.
+CMAKE_CXX_FLAGS_MINSIZEREL:STRING=/MD /O1 /D NDEBUG
+
+//Flags used by the compiler during release builds (/MD /Ob1 /Oi
+// /Ot /Oy /Gs will produce slightly less optimized but smaller
+// files).
+CMAKE_CXX_FLAGS_RELEASE:STRING=/MD /O2 /D NDEBUG
+
+//Flags used by the compiler during Release with Debug Info builds.
+//
+CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /D NDEBUG
+
+//Size of stack for programs.
+CMAKE_CXX_STACK_SIZE:STRING=10000000
+
+//Default compiler warning level for C++.
+CMAKE_CXX_WARNING_LEVEL:STRING=3
+
+//C compiler
+CMAKE_C_COMPILER:STRING=cl
+
+//Flags for C compiler.
+CMAKE_C_FLAGS:STRING=  /W3 /Zm1000
+
+//Flags used by the compiler during debug builds.
+CMAKE_C_FLAGS_DEBUG:STRING=/MDd /Zi /Od /GZ
+
+//Flags used by the compiler during release minsize builds.
+CMAKE_C_FLAGS_MINSIZEREL:STRING=/MD /O1 /D NDEBUG
+
+//Flags used by the compiler during release builds (/MD /Ob1 /Oi
+// /Ot /Oy /Gs will produce slightly less optimized but smaller
+// files).
+CMAKE_C_FLAGS_RELEASE:STRING=/MD /O2 /D NDEBUG
+
+//Flags used by the compiler during Release with Debug Info builds.
+//
+CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=/MD /Zi /O2 /D NDEBUG
+
+//Flags used by the linker.
+CMAKE_EXE_LINKER_FLAGS:STRING=/STACK:10000000 /machine:I386 /INCREMENTAL:YES
+
+//Flags used by the linker during debug builds.
+CMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=/debug /pdbtype:sept
+
+//Flags used by the linker during release minsize builds.
+CMAKE_EXE_LINKER_FLAGS_MINSIZEREL:STRING=
+
+//Flags used by the linker during release builds.
+CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
+
+//Flags used by the linker during Release with Debug Info builds.
+//
+CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /pdbtype:sept
+
+//Install path prefix, prepended onto install directories.
+CMAKE_INSTALL_PREFIX:PATH=/usr/local
+
+//make program
+CMAKE_MAKE_PROGRAM:FILEPATH=C:/PROGRA~1/MID05A~1/Common7/IDE/devenv.com
+
+//Flags used by the linker during the creation of modules.
+CMAKE_MODULE_LINKER_FLAGS:STRING=/STACK:10000000 /machine:I386 /INCREMENTAL:YES
+
+//Flags used by the linker during debug builds.
+CMAKE_MODULE_LINKER_FLAGS_DEBUG:STRING=/debug /pdbtype:sept
+
+//Flags used by the linker during release minsize builds.
+CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL:STRING=
+
+//Flags used by the linker during release builds.
+CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
+
+//Flags used by the linker during Release with Debug Info builds.
+//
+CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /pdbtype:sept
+
+//Path to a program.
+CMAKE_RANLIB:FILEPATH=C:/Program Files/Development/MinGW/bin/ranlib.exe
+
+//Flags used by the linker during the creation of dll's.
+CMAKE_SHARED_LINKER_FLAGS:STRING=/STACK:10000000 /machine:I386 /INCREMENTAL:YES
+
+//Flags used by the linker during debug builds.
+CMAKE_SHARED_LINKER_FLAGS_DEBUG:STRING=/debug /pdbtype:sept
+
+//Flags used by the linker during release minsize builds.
+CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL:STRING=
+
+//Flags used by the linker during release builds.
+CMAKE_SHARED_LINKER_FLAGS_RELEASE:STRING=
+
+//Flags used by the linker during Release with Debug Info builds.
+//
+CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /pdbtype:sept
+
+//If set, runtime paths are not added when using shared libraries.
+//
+CMAKE_SKIP_RPATH:BOOL=OFF
+
+//Libraries linked by defalut with all applications.
+CMAKE_STANDARD_LIBRARIES:STRING=kernel32.lib
+
+//If true, cmake will use relative paths in makefiles and projects.
+//
+CMAKE_USE_RELATIVE_PATHS:BOOL=OFF
+
+//If this value is on, makefiles will be generated without the
+// .SILENT directive, and all commands will be echoed to the console
+// during the make.  This is useful for debugging only. With Visual
+// Studio IDE projects all commands are done without /nologo.
+CMAKE_VERBOSE_MAKEFILE:BOOL=OFF
+
+//Single output directory for building all executables.
+EXECUTABLE_OUTPUT_PATH:PATH=
+
+//Single output directory for building all libraries.
+LIBRARY_OUTPUT_PATH:PATH=
+
+//Value Computed by CMake
+dftest_BINARY_DIR:STATIC=D:/My Documents/Acm files/dftest/branches/1.0/BuildFiles
+
+//Value Computed by CMake
+dftest_SOURCE_DIR:STATIC=D:/My Documents/Acm files/dftest/branches/1.0
+
+
+########################
+# INTERNAL cache entries
+########################
+
+//Stored GUID
+ALL_BUILD_GUID_CMAKE:INTERNAL=20D6D28A-8400-4C67-9A7D-A3C6C13C3333
+//Advanced flag for variable: CMAKE_AR
+CMAKE_AR-ADVANCED:INTERNAL=1
+//What is the target build tool cmake is generating for.
+CMAKE_BUILD_TOOL:INTERNAL=C:/PROGRA~1/MID05A~1/Common7/IDE/devenv.com
+//This is the directory where this CMakeCahe.txt was created
+CMAKE_CACHEFILE_DIR:INTERNAL=d:/My Documents/Acm files/dftest/branches/1.0/BuildFiles
+//Major version of cmake used to create the current loaded cache
+//
+CMAKE_CACHE_MAJOR_VERSION:INTERNAL=2
+//Minor version of cmake used to create the current loaded cache
+//
+CMAKE_CACHE_MINOR_VERSION:INTERNAL=0
+//Major version of cmake used to create the current loaded cache
+//
+CMAKE_CACHE_RELEASE_VERSION:INTERNAL=patch 6
+//Path to CMake executable.
+CMAKE_COMMAND:INTERNAL=C:/PROGRA~1/DEVELO~1/CMake20/bin/cmake.exe
+//Advanced flag for variable: CMAKE_CONFIGURATION_TYPES
+CMAKE_CONFIGURATION_TYPES-ADVANCED:INTERNAL=1
+//Path to ctest program executable.
+CMAKE_CTEST_COMMAND:INTERNAL=C:/PROGRA~1/DEVELO~1/CMake20/bin/ctest.exe
+//Advanced flag for variable: CMAKE_CXX_COMPILER
+CMAKE_CXX_COMPILER-ADVANCED:INTERNAL=1
+//Result of TRY_COMPILE
+CMAKE_CXX_COMPILER_WORKS:INTERNAL=TRUE
+//Advanced flag for variable: CMAKE_CXX_FLAGS
+CMAKE_CXX_FLAGS-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_CXX_FLAGS_DEBUG
+CMAKE_CXX_FLAGS_DEBUG-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_CXX_FLAGS_MINSIZEREL
+CMAKE_CXX_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_CXX_FLAGS_RELEASE
+CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_CXX_FLAGS_RELWITHDEBINFO
+CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_CXX_STACK_SIZE
+CMAKE_CXX_STACK_SIZE-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_CXX_WARNING_LEVEL
+CMAKE_CXX_WARNING_LEVEL-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_C_COMPILER
+CMAKE_C_COMPILER-ADVANCED:INTERNAL=1
+//Result of TRY_COMPILE
+CMAKE_C_COMPILER_WORKS:INTERNAL=TRUE
+//Advanced flag for variable: CMAKE_C_FLAGS
+CMAKE_C_FLAGS-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_C_FLAGS_DEBUG
+CMAKE_C_FLAGS_DEBUG-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_C_FLAGS_MINSIZEREL
+CMAKE_C_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_C_FLAGS_RELEASE
+CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_C_FLAGS_RELWITHDEBINFO
+CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+//Path to cache edit program executable.
+CMAKE_EDIT_COMMAND:INTERNAL=C:/PROGRA~1/DEVELO~1/CMake20/bin/CMakeSetup.exe
+//Advanced flag for variable: CMAKE_EXE_LINKER_FLAGS
+CMAKE_EXE_LINKER_FLAGS-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_EXE_LINKER_FLAGS_DEBUG
+CMAKE_EXE_LINKER_FLAGS_DEBUG-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_EXE_LINKER_FLAGS_MINSIZEREL
+//
+CMAKE_EXE_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_EXE_LINKER_FLAGS_RELEASE
+CMAKE_EXE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO
+//
+CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+//Name of generator.
+CMAKE_GENERATOR:INTERNAL=Visual Studio 8 2005
+//Start directory with the top level CMakeLists.txt file for this
+// project
+CMAKE_HOME_DIRECTORY:INTERNAL=D:/My Documents/Acm files/dftest/branches/1.0
+//Advanced flag for variable: CMAKE_INSTALL_PREFIX
+CMAKE_INSTALL_PREFIX-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_MAKE_PROGRAM
+CMAKE_MAKE_PROGRAM-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_MODULE_LINKER_FLAGS
+CMAKE_MODULE_LINKER_FLAGS-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_MODULE_LINKER_FLAGS_DEBUG
+CMAKE_MODULE_LINKER_FLAGS_DEBUG-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL
+//
+CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_MODULE_LINKER_FLAGS_RELEASE
+//
+CMAKE_MODULE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO
+//
+CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_RANLIB
+CMAKE_RANLIB-ADVANCED:INTERNAL=1
+//Path to CMake installation.
+CMAKE_ROOT:INTERNAL=C:/PROGRA~1/DEVELO~1/CMake20
+//Advanced flag for variable: CMAKE_SHARED_LINKER_FLAGS
+CMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG
+CMAKE_SHARED_LINKER_FLAGS_DEBUG-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL
+//
+CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_SHARED_LINKER_FLAGS_RELEASE
+//
+CMAKE_SHARED_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO
+//
+CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_SKIP_RPATH
+CMAKE_SKIP_RPATH-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_STANDARD_LIBRARIES
+CMAKE_STANDARD_LIBRARIES-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_USE_RELATIVE_PATHS
+CMAKE_USE_RELATIVE_PATHS-ADVANCED:INTERNAL=1
+//Advanced flag for variable: CMAKE_VERBOSE_MAKEFILE
+CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Stored GUID
+INSTALL_GUID_CMAKE:INTERNAL=E24D017D-3752-46EE-A3F5-C9E34FB33FCD
+//Stored GUID
+RUN_TESTS_GUID_CMAKE:INTERNAL=9467689A-2E23-453E-8760-CC3431A06634
+//Path to an executable
+dftest_CMAKE_PATH:INTERNAL=D:/My Documents/Acm files/dftest/branches/1.0/BuildFiles
+//Stored GUID
+dftest_GUID_CMAKE:INTERNAL=27FE5F32-52DB-4FD1-A0DA-F408558888E3
+

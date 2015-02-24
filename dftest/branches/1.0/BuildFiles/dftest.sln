@@ -1,0 +1,34 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", ".\ALL_BUILD.vcproj", "{20D6D28A-8400-4C67-9A7D-A3C6C13C3333}"
+	ProjectSection(ProjectDependencies) = postProject
+		{27FE5F32-52DB-4FD1-A0DA-F408558888E3} = {27FE5F32-52DB-4FD1-A0DA-F408558888E3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "INSTALL", ".\INSTALL.vcproj", "{E24D017D-3752-46EE-A3F5-C9E34FB33FCD}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dftest", ".\dftest.vcproj", "{27FE5F32-52DB-4FD1-A0DA-F408558888E3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{20D6D28A-8400-4C67-9A7D-A3C6C13C3333}.Debug.ActiveCfg = Debug|Win32
+		{20D6D28A-8400-4C67-9A7D-A3C6C13C3333}.Release.ActiveCfg = Release|Win32
+		{E24D017D-3752-46EE-A3F5-C9E34FB33FCD}.Debug.ActiveCfg = Debug|Win32
+		{E24D017D-3752-46EE-A3F5-C9E34FB33FCD}.Release.ActiveCfg = Release|Win32
+		{27FE5F32-52DB-4FD1-A0DA-F408558888E3}.Debug.ActiveCfg = Debug|Win32
+		{27FE5F32-52DB-4FD1-A0DA-F408558888E3}.Debug.Build.0 = Debug|Win32
+		{27FE5F32-52DB-4FD1-A0DA-F408558888E3}.Release.ActiveCfg = Release|Win32
+		{27FE5F32-52DB-4FD1-A0DA-F408558888E3}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
